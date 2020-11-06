@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,800&display=swap');
+body{
+    margin: 0px;
+}
+header{
+    height: auto;
+
+}
+         /* estilizaçao do video */
+#background{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+    background: rgba(0, 0, 0, 0.411 );
+    background:background cover !important ;
+   
+}
+#content{
+    position: absolute;
+    text-align: center;
+    top: 245px;
+    padding: 30px ;
+    width: 35%;
+    height: 190px;
+    color: white;
+    text-shadow: #000 2px 2px 1px;
+    background:rgba(11, 158, 177, 0.714) ;
+    border-radius: 4px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    background:rgba(11, 158, 177, 0.714) ;
+    width: 100vw;
+    height: 80px;
+    
+}
+.navbar-brand{
+    font-family: 'Playfair Display', serif; 
+    text-shadow: #000 1px 1px 1px;
+    font-size: 28px;
+    padding-left: 110px;
+  
+}
+.nav-item{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding-right: 20px;
+    
+}
+.nav-link{
+    margin-left: 60px;
+    text-shadow: #000 1px 1px 1px;
+}
+footer{
+    position: relative;
+    width: 100vw;
+    height: 52px;
+    background:#0b9fb3b6 ;
+    margin-top: -57px;
+    
+    
+}
+footer,p{
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+}
